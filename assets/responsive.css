@@ -83,6 +83,23 @@
 }
 
 
+/* ==========================
+   POPULAR SECTION STYLES
+   ========================== */
+   .Popular-section{
+    padding: 20px 0 100px 0;
+}
+
+/* 
+========POPULAR SECTION TITLE========
+*/
+
+.popular-container{
+  display: grid;
+  grid-template-columns: repeat(1, 0fr);
+}
+
+
 }
 
 
@@ -179,6 +196,21 @@
     font-size: 50px;
 }
 
+
+/* ==========================
+   POPULAR SECTION STYLES
+   ========================== */
+   .Popular-section{
+    padding: 20px 0 100px 0;
+}
+
+/* 
+========POPULAR SECTION TITLE========
+*/
+
+.popular-container{
+  grid-template-columns: repeat(1, 0fr);
+}
 
 
 }
@@ -277,6 +309,21 @@ main{
     font-size: 15px;
 }
 
+
+/* ==========================
+   POPULAR SECTION STYLES
+   ========================== */
+   .Popular-section{
+    padding: 20px 0 100px 0;
+}
+
+/* 
+========POPULAR SECTION TITLE========
+*/
+.popular-container{
+  grid-template-columns: repeat(2, 0fr);
+}
+
 }
 
 
@@ -355,6 +402,22 @@ main{
 */
 .about-title-content{
     width: 100%;
+}
+
+
+
+/* ==========================
+   POPULAR SECTION STYLES
+   ========================== */
+   .Popular-section{
+    padding: 20px 0 100px 0;
+}
+
+/* 
+========POPULAR SECTION TITLE========
+*/
+.popular-container{
+  grid-template-columns: repeat(2, 0fr);
 }
 
 }

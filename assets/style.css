@@ -310,12 +310,15 @@
 }
 
 .popular-button-container button{
-    padding: 15px 20px;
+    padding: 15px 25px;
     border-radius: 50px;
     color: #fff;
     background-color: #d56d3f;
     border: none;
     font-size: 15px;
+    align-items: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
 
 .popular-button-container i{
