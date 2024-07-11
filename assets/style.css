@@ -107,3 +107,63 @@
     position: relative;
     top: 10%;
 }
+
+
+/* ==========================
+   BANNER STYLES
+   ========================== */
+.banner-container{
+    display: flex;
+    font-family: "Lora", serif;
+    padding-top: 100px;
+}
+
+/* 
+========Banner Tile PART========
+*/
+.banner-title{
+    width: 500px;
+}
+
+.banner-title h1{
+    font-size: 60px;
+}
+
+.banner-title h1 span img{
+    width: 50px;
+}
+
+.banner-title p{
+    padding: 20px 0 40px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* 
+========Banner Button PART========
+*/
+.banner-button{
+    padding: 10px 20px;
+    align-items: center;
+    background-color: #d56d3f;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner-button i{
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    left: 3px;
+}
+
+/* 
+========Banner Button PART========
+*/
+.banner-img-contentainer img{
+    width: 600px;
+    height: 400px;
+}
