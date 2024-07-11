@@ -1,0 +1,54 @@
+@media screen and (max-width: 576px){
+/* ==========================
+   HEADER STYLES
+   ========================== */
+   header{
+    padding: 30px 0 100px 0;
+   }
+
+/* 
+============NAVIGATION PART=============
+*/
+.PrimaryNav-Links li{
+    display: none;
+}
+
+/* 
+========NAV LOGO PART========
+*/
+
+
+/* 
+========NAVBAR LINKS PART========
+*/
+
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:768px){
+/* ==========================
+   HEADER STYLES
+   ========================== */
+   header{
+    padding: 30px 0 100px 0;
+   }
+
+/* 
+============NAVIGATION PART=============
+*/
+.PrimaryNav-Links li{
+    display: none;
+}
+
+/* 
+========NAV LOGO PART========
+*/
+
+
+/* 
+========NAVBAR LINKS PART========
+*/
+
+
+}

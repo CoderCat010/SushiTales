@@ -89,6 +89,7 @@
 
 .PrimaryNav-Links{
     gap: 60px;
+    font-weight: 500;
 }
 
 .SeconderyNav-Links{
@@ -100,7 +101,6 @@
     font-size: 18px;
     padding: 5px 10px;
     border-radius: 50%;
-    position: relative;
 }
 
 .SeconderyNav-Links i{
