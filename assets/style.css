@@ -45,7 +45,7 @@
    HEADER STYLES
    ========================== */
    header{
-    padding: 30px 0 100px 0;
+    padding: 30px 0 70px 0;
     overflow: hidden;
    }
 
@@ -171,10 +171,14 @@
 
 
 /* ==========================
+   MAIN SECTION STYLES
+   ========================== */
+
+/* ==========================
    ABOUT SECTION STYLES
    ========================== */
 .about-section{
-    padding: 30px 0 100px 0;
+    padding: 0 0 100px 0;
 }
 
 .about-container{
@@ -211,4 +215,112 @@
 
 .about-title-content h1 span img{
     width: 50px;
+}
+
+
+/* ==========================
+   POPULAR SECTION STYLES
+   ========================== */
+.Popular-section{
+    padding: 30px 0 100px 0;
+}
+
+/* 
+========POPULAR SECTION TITLE========
+*/
+.popular-sec-title{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.popular-sec-title h3{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color: #d56d3f;
+}
+
+.popular-sec-title h1{
+    font-size: 50px;
+}
+
+.popular-container{
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  gap: 5.5rem;
+}
+
+.popular-card-main{
+    background-color:  hsl(19, 100%, 97%);
+    box-shadow: 0 8px 20px hsla(19, 64%, 48%, 0.313);
+    padding:  20px 30px 30px 30px;
+    border-radius: 30px;
+}
+
+/* 
+========POPULAR CARD IMG========
+*/
+.dish-card-img{
+    display: flex;
+    justify-content: center;
+}
+
+.dish-card-img img{
+   width: 220px;
+}
+
+/* 
+========POPULAR CARD TITLE CONTENT========
+*/
+.dish-card-title{
+    text-align: center;
+}
+
+.dish-card-title h1{
+    padding: 20px 0 10px 0;
+    font-family: "Lora", serif;
+}
+
+.dish-card-title p{
+    font-size: 14px;
+    padding: 0 0 20px 0;
+}
+
+.dish-card-title h4{
+    color: #d56d3f;
+}
+
+.dish-card-title h4 span i{
+    color: #fff;
+    background-color: #d56d3f;
+    padding: 5px;
+    font-weight: lighter;
+    border-radius: 50%;
+    position: relative;
+    left: 10%;
+}
+
+/* 
+========POPULAR BUTTON========
+*/
+.popular-button-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.popular-button-container button{
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #d56d3f;
+    border: none;
+    font-size: 15px;
+}
+
+.popular-button-container i{
+    position: relative;
+    top: 20%;
+    left: 3%;
+    font-size: 20px;
 }
