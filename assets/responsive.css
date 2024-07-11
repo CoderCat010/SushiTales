@@ -13,14 +13,36 @@
     display: none;
 }
 
-/* 
-========NAV LOGO PART========
-*/
 
+/* ==========================
+   BANNER STYLES
+   ========================== */
+   .banner-container{
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* 
-========NAVBAR LINKS PART========
+========Banner Title Part========
 */
+.banner-title{
+    width: 100%;
+}
+
+.banner-title h1{
+    font-size: 50px;
+}
+
+.banner-title h1 span img{
+    width: 50px;
+}
+
+/* 
+========Banner Img Part========
+*/
+.banner-img-contentainer img{
+    width: 100%;
+}
 
 
 }
@@ -31,7 +53,7 @@
    HEADER STYLES
    ========================== */
    header{
-    padding: 30px 0 100px 0;
+    padding: 30px 20px 100px 20px;
    }
 
 /* 
@@ -41,14 +63,134 @@
     display: none;
 }
 
-/* 
-========NAV LOGO PART========
-*/
 
+/* ==========================
+   BANNER STYLES
+   ========================== */
+   .banner-container{
+    flex-direction: column;
+    font-family: "Lora", serif;
+    padding-top: 100px;
+    justify-content: center;
+    background-color: azur;
+}
+
+/* 
+========Banner Title Part========
+*/
+.banner-title{
+    width: 100%;
+}
+
+.banner-title h1{
+    font-size: 50px;
+}
+
+.banner-title h1 span img{
+    width: 50px;
+}
+
+/* 
+========Banner Img Part========
+*/
+.banner-img-contentainer img{
+    width: 100%;
+    height: 400px;
+    padding-inline: 30px;
+}
+
+
+}
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+/* ==========================
+   HEADER STYLES
+   ========================== */
+   header{
+    padding: 30px 30px 100px 30px;
+   }
 
 /* 
 ========NAVBAR LINKS PART========
 */
+.nav-container{
+    gap: 20px;
+}
 
+.PrimaryNav-Links{
+    gap: 40px;
+    font-weight: 500;
+}
+
+
+/* ==========================
+   BANNER STYLES
+   ========================== */
+
+/* 
+========Banner Title PART========
+*/
+.banner-title{
+    width: 100%;
+}
+
+.banner-title h1 span img{
+    width: 50px;
+}
+
+/* 
+========Banner Img========
+*/
+.banner-img-contentainer img{
+    width: 100%;
+}
 
 }
+
+
+@media screen and (min-width:993px) and (max-width:1200px){
+/* ==========================
+   HEADER STYLES
+   ========================== */
+   header{
+    padding: 30px 30px 100px 30px;
+   }
+
+/* 
+========NAVBAR LINKS PART========
+*/
+.nav-container{
+    gap: 20px;
+}
+
+.PrimaryNav-Links{
+    gap: 40px;
+    font-weight: 500;
+}
+
+
+/* ==========================
+   BANNER STYLES
+   ========================== */
+
+/* 
+========Banner Title PART========
+*/
+.banner-title{
+    width: 100%;
+}
+
+.banner-title h1 span img{
+    width: 50px;
+}
+
+/* 
+========Banner Img========
+*/
+.banner-img-contentainer img{
+    width: 100%;
+}
+
+}
+
