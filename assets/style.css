@@ -383,3 +383,86 @@
 .recently-img-contentainer img{
     width: 500px;
 }
+
+
+/* ===========================
+    NEWSLATTER SECTION STYLES
+   =========================== */
+.newslatter-section{
+    padding: 30px 0 100px 0;
+}
+
+.newslatter-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    background-color: hsl(18, 23%, 11%);
+    box-shadow: 0 8px 20px hsla(0, 0%, 5%, 0.313);
+    padding: 50px 0;
+    border-radius: 50px;
+}
+
+/* 
+========NEWSLATTER IMG PART========
+*/
+.newslatter-img-container img{
+    width: 450px;
+}
+
+/* 
+========NEWSLATTER TITLE PART========
+*/
+.newslatter-title-content h3{
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: #d56d3f;
+}
+
+.newslatter-title-content h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: "Lora", serif;
+    padding: 10px 0 20px 0;
+}
+
+/* 
+========NEWSLATTER Mail PART========
+*/
+.newslatter-mail{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+/* 
+========NEWSLATTER Mail BUTTON PART========
+*/
+.newslatter-input{
+    padding-top: 5px; 
+    border: none;  
+    font-size: 16px;
+    padding: 0 5px;
+    outline: none;
+}
+
+.newslatter-subscribe{
+    color: #fff;
+    background-color: #d56d3f;
+    border: none;
+    padding: 6px 20px 11px 20px;
+    border-radius: 50px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.newslatter-subscribe i{
+    font-size: 20px;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
