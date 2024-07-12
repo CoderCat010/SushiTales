@@ -135,6 +135,40 @@
 }
 
 
+/* ===========================
+    NEWSLATTER SECTION STYLES
+   =========================== */
+   .newslatter-section{
+    padding: 20px 0 100px 0;
+}
+
+.newslatter-container{
+    flex-direction: column-reverse;
+    gap: 30px;
+    padding: 50px 20px 40px 20px;
+}
+
+/* 
+========NEWSLATTER IMG PART========
+*/
+.newslatter-img-container img{
+    width: 100%;
+}
+
+/* 
+========NEWSLATTER TITLE PART========
+*/
+.newslatter-title-content h1{
+    font-size: 40px;
+    padding: 10px 0 20px 0;
+}
+
+/* 
+========NEWSLATTER Mail PART========
+*/
+.newslatter-mail{
+    display: none;
+}
 
 }
 
@@ -285,6 +319,77 @@
 }
 
 
+/* ===========================
+    NEWSLATTER SECTION STYLES
+   =========================== */
+   .newslatter-section{
+    padding: 20px 0 100px 0;
+}
+
+.newslatter-container{
+    flex-direction: column-reverse;
+    gap: 30px;
+    padding: 60px 0 50px 0;
+}
+
+/* 
+========NEWSLATTER IMG PART========
+*/
+.newslatter-img-container img{
+    width: 100%;
+    padding-inline: 100px;
+}
+
+/* 
+========NEWSLATTER TITLE PART========
+*/
+.newslatter-title-content h1{
+    font-size: 50px;
+    padding: 10px 0 20px 0;
+}
+
+/* 
+========NEWSLATTER Mail PART========
+*/
+.newslatter-mail{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+/* 
+========NEWSLATTER Mail BUTTON PART========
+*/
+.newslatter-input{
+    padding-top: 5px; 
+    border: none;  
+    font-size: 16px;
+    padding: 0 5px;
+    outline: none;
+}
+
+.newslatter-subscribe{
+    color: #fff;
+    background-color: #d56d3f;
+    border: none;
+    padding: 6px 20px 11px 20px;
+    border-radius: 50px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.newslatter-subscribe i{
+    font-size: 20px;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+
 }
 
 
@@ -431,6 +536,13 @@ main{
 }
 
 
+/* ===========================
+    NEWSLATTER SECTION STYLES
+   =========================== */
+.newslatter-section{
+    display: none;
+}
+
 }
 
 
@@ -571,6 +683,25 @@ main{
 */
 .recently-img-contentainer img{
     width: 100%;
+}
+
+
+/* ===========================
+    NEWSLATTER SECTION STYLES
+   =========================== */
+   .newslatter-section{
+    padding: 30px 0 100px 0;
+}
+
+.newslatter-container{
+    gap: 50px;
+}
+
+/* 
+========NEWSLATTER IMG PART========
+*/
+.newslatter-img-container img{
+    width: 400px;
 }
 
 }
