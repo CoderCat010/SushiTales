@@ -477,7 +477,7 @@
 
 .footer-container{
     display: flex;
-    justify-content: space-between;
+    gap: 70px;
 }
 
 /* 
@@ -501,7 +501,7 @@
 ========FOOTER LOGO PART========
 */
 .footer-logo-container{
-    width: 250px;
+    width: 300px;
 }
 
 .footer-logo{
@@ -528,15 +528,14 @@
     width: 30px;
     position: relative;
     top: 15%;
-    left: 20%;
 }
 
 /* 
 ========FOOTER LINKS PART========
 */
 .footer-links-content{
-    display: flex;
-    gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .footer-links-content ul{
@@ -548,7 +547,8 @@
 }
 
 .social-media ul{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
 

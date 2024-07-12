@@ -170,6 +170,43 @@
     display: none;
 }
 
+
+/* ===========================
+    FOOTER SECTION STYLES
+   =========================== */
+   .footer-section{
+    padding: 60px 0 30px 0;
+}
+
+.footer-container{
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* 
+========FOOTER LOGO PART========
+*/
+.footer-logo-container{
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+/* 
+========FOOTER LINKS PART========
+*/
+.footer-links-content{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.social-media ul{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
 }
 
 
@@ -390,6 +427,47 @@
 }
 
 
+/* ===========================
+    FOOTER SECTION STYLES
+   =========================== */
+.footer-section{
+    padding: 60px 30px 30px 30px;
+}
+
+.footer-container{
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 
+========FOOTER LOGO PART========
+*/
+.footer-logo-container{
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+/* 
+========FOOTER LINKS PART========
+*/
+.footer-links-content{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.social-media{
+    margin-top: 50px;
+}
+
+.social-media ul{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
 }
 
 
@@ -542,6 +620,48 @@ main{
 .newslatter-section{
     display: none;
 }
+
+
+/* ===========================
+    FOOTER SECTION STYLES
+   =========================== */
+   .footer-section{
+    padding: 60px 30px 30px 30px;
+}
+
+.footer-container{
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 
+========FOOTER LOGO PART========
+*/
+.footer-logo-container{
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+/* 
+========FOOTER LINKS PART========
+*/
+.footer-links-content{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.social-media{
+    margin-top: 50px;
+}
+
+.social-media ul{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
 
 }
 
@@ -702,6 +822,47 @@ main{
 */
 .newslatter-img-container img{
     width: 400px;
+}
+
+
+/* ===========================
+    FOOTER SECTION STYLES
+   =========================== */
+   .footer-section{
+    padding: 60px 30px 30px 30px;
+}
+
+.footer-container{
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 
+========FOOTER LOGO PART========
+*/
+.footer-logo-container{
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+/* 
+========FOOTER LINKS PART========
+*/
+.footer-links-content{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.social-media{
+    margin-top: 50px;
+}
+
+.social-media ul{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
 }
 
 }
