@@ -100,6 +100,42 @@
 }
 
 
+/* ==========================
+   RECENTLY SECTION STYLES
+   ========================== */
+.Recently-section{
+    padding: 20px 0 100px 0;
+}
+
+.recently-container{
+    flex-direction: column;
+}
+
+/* 
+========RECENTLY TITLE PART========
+*/
+.recently-title{
+    width: 100%;
+}
+
+.recently-title h3{
+    font-size: 30px;
+}
+
+.recently-title h1{
+    font-size: 45px;
+}
+
+/* 
+========RECENTLY IMG PART========
+*/
+.recently-img-contentainer img{
+    width: 100%;
+    padding-top: 70px;
+}
+
+
+
 }
 
 
@@ -210,6 +246,42 @@
 
 .popular-container{
   grid-template-columns: repeat(1, 0fr);
+}
+
+
+/* ==========================
+   RECENTLY SECTION STYLES
+   ========================== */
+   .Recently-section{
+    padding: 0 0 100px 0;
+}
+
+.recently-container{
+    flex-direction: column;
+}
+
+/* 
+========RECENTLY TITLE PART========
+*/
+.recently-title{
+    width: 100%;
+}
+
+.recently-title h3{
+    font-size: 30px;
+}
+
+.recently-title h1{
+    font-size: 50px;
+}
+
+/* 
+========RECENTLY IMG PART========
+*/
+.recently-img-contentainer img{
+    width: 100%;
+    padding-top: 70px;
+    padding-inline: 50px;
 }
 
 
@@ -324,6 +396,41 @@ main{
   grid-template-columns: repeat(2, 0fr);
 }
 
+
+/* ==========================
+   RECENTLY SECTION STYLES
+   ========================== */
+.Recently-section{
+    padding: 30px 0 100px 0;
+}
+
+.recently-container{
+    gap: 30px;
+}
+
+/* 
+========RECENTLY TITLE PART========
+*/
+.recently-title{
+    width: 100%;
+}
+
+.recently-title h1{
+    font-size: 50px;
+}
+
+.recently-title p{
+    font-size: 15px;
+}
+
+/* 
+========RECENTLY IMG PART========
+*/
+.recently-img-contentainer img{
+    width: 100%;
+}
+
+
 }
 
 
@@ -418,6 +525,52 @@ main{
 */
 .popular-container{
   grid-template-columns: repeat(2, 0fr);
+}
+
+
+
+/* ==========================
+   POPULAR SECTION STYLES
+   ========================== */
+   .Popular-section{
+    padding: 20px 0 100px 0;
+}
+
+/* 
+========POPULAR SECTION TITLE========
+*/
+.popular-container{
+  grid-template-columns: repeat(2, 0fr);
+}
+
+
+/* ==========================
+   RECENTLY SECTION STYLES
+   ========================== */
+.Recently-section{
+    padding: 30px 0 100px 0;
+}
+
+.recently-container{
+    gap: 30px;
+}
+
+/* 
+========RECENTLY TITLE PART========
+*/
+.recently-title{
+    width: 100%;
+}
+
+.recently-title h1{
+    font-size: 60px;
+}
+
+/* 
+========RECENTLY IMG PART========
+*/
+.recently-img-contentainer img{
+    width: 100%;
 }
 
 }
