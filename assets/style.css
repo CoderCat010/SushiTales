@@ -466,3 +466,108 @@
     top: 25%;
     left: 5%;
 }
+
+
+/* ===========================
+    FOOTER SECTION STYLES
+   =========================== */
+.footer-section{
+    padding: 60px 0 30px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+========FOOTER HR PART========
+*/
+.footer-hr-top {
+    margin-bottom: 60px;
+    border: none; 
+    height: 1px; 
+    background-color: #000; 
+}
+
+.footer-hr-bottom{
+    margin-top: 60px;
+    border: none; 
+    height: 1px; 
+    background-color: #000; 
+}
+
+/* 
+========FOOTER LOGO PART========
+*/
+.footer-logo-container{
+    width: 250px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-logo img{
+    width: 50px;
+}
+
+.footer-logo h1{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.footer-logo-container p {
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer-logo-container p span img{
+    width: 30px;
+    position: relative;
+    top: 15%;
+    left: 20%;
+}
+
+/* 
+========FOOTER LINKS PART========
+*/
+.footer-links-content{
+    display: flex;
+    gap: 70px;
+}
+
+.footer-links-content ul{
+    padding-top: 20px;
+}
+
+.footer-links-content li{
+    padding-top: 15px;
+}
+
+.social-media ul{
+    display: flex;
+    gap: 30px;
+}
+
+.social-media li i{
+    color: #fff;
+    background-color: #d56d3f;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* 
+========FOOTER COPYRIGHT PART========
+*/
+.footer-copyright{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-copyright a{
+    text-decoration: none;
+    color: #000;
+}
